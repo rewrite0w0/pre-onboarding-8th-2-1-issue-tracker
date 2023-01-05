@@ -61,10 +61,12 @@
     "react/require-default-props": "off", // defaultProps를 지정하지 않아도 됨
     "react/prop-types": ["off"], // propTypes 설정하지 않아도 됨
     "react/function-component-definition": [
+      2,
       {
         "namedComponents": "arrow-function"
       }
-    ]
+    ],
+    "arrow-body-style": ["error", "always"]
   },
   "settings": {
     "import/resolver": {
